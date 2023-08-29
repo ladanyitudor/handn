@@ -1,0 +1,49 @@
+body {
+	background-image: url(../img/back2.jpg);
+	background-size: cover;
+    min-height: 100vh;
+    min-width: 100%;
+}
+
+.container {
+    background-color: rgba(54, 70, 70, 0.7);
+    margin-top: 7%;
+    margin-bottom: 7%;
+    max-height: 500px;
+    min-height: 500px;
+    animation: zoomIn;
+    animation-duration: 5s;
+}
+
+.goback {
+	color: #BFDCDC;
+	display: flex;
+    list-style: none;
+    font-size: 0,7em;
+    margin: 20px;
+    background-color: transparent;
+    border-color: #522828;
+    font-family: 'Handlee', cursive;
+    text-decoration: none;
+    font-size: 2vw;
+    text-align: right;
+    float: right;
+}
+
+.goback:hover {
+	color: #5A9494;
+}
+
+h1 {
+    color: #BFDCDC;
+    display: flex;
+    list-style: none;
+    font-size: 0,7em;
+    margin: 20px;
+    border-color: #522828;
+    font-family: 'Handlee', cursive;
+    text-decoration: none;
+    font-size: 4vw;
+    text-align: center;
+
+
